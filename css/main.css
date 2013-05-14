@@ -93,9 +93,33 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Styling starts here */
 
+* {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
+}
 
+body {
+    /*helps us calculate 1em*/
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
 
+.wrapper {
+    display:block;
+    /*define stuff for mobile*/
+    padding:0 1em;
+}
+
+.box {
+    width: 100%;
+    max-width:960px;
+    margin: 0 auto;
+}
 
 
 
